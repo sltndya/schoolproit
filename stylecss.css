@@ -1,0 +1,210 @@
+#text1{
+    display: flex;
+    align-items: center;
+}
+#text1::before{
+    text-align: center;
+    content: "Текст для первого блока №1";
+    border-radius: 10%;
+    width: 200;
+    height: 180;
+	background-color: #52a5a8;
+	color: #fff;
+	padding: 30px 20px;
+    animation-duration: 1s;
+    animation-name: blok12;
+    animation-fill-mode:forwards;
+}
+#text1:hover::before{
+    animation-duration: 1s;
+    animation-name: blok11;
+    animation-fill-mode:forwards;
+}
+
+@keyframes blok11 {
+    from {
+        background-color: #52a5a8;
+        content: "Текст для первого блока №1";
+    }
+  
+    to {
+        background-color: #131616;
+        content: "Текст для первого блока №2";
+    }
+}
+
+@keyframes blok12 {
+    from {
+        background-color: #131616;
+        content: "Текст для первого блока №2";
+    }
+    to {
+        background-color: #52a5a8;
+        content: "Текст для первого блока №1";
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#text2{
+    display: flex;
+    align-items: center;
+}
+#text2::before{
+    text-align: center;
+    content: "Текст для второго блока №1";
+    border-radius: 10%;
+    width: 200;
+    height: 180;
+	background-color: #52a5a8;
+	color: #fff;
+	padding: 30px 20px;
+    animation-duration: 1s;
+    animation-name: blok22;
+    animation-fill-mode:forwards;
+}
+#text2:hover::before{
+    animation-duration: 1s;
+    animation-name: blok21;
+    animation-fill-mode:forwards;
+}
+
+@keyframes blok21 {
+    from {
+        background-color: #52a5a8;
+        content: "Текст для второго блока №1";
+    }
+  
+    to {
+        background-color: #131616;
+        content: "Текст для второго блока №2";
+    }
+}
+
+@keyframes blok22 {
+    from {
+        background-color: #131616;
+        content: "Текст для второго блока №2";
+    }
+    to {
+        background-color: #52a5a8;
+        content: "Текст для второго блока №1";
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blockkursa{
+    display: inline-block;
+    border-radius: 10%;
+    width: 200;
+    height: 200;
+	background-color: #52a5a8;
+	color: #fff;
+	padding: 10px 30px 110px 30px;
+}
+
+.Курс123{
+    text-align: center;
+}
+
+#plashkacyrsi{
+    background-color: antiquewhite;
+}
+
+
+.Ошколе{
+    display: flex;
+    font-size: 35;
+}
+#кнопканазапись{
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-top: 30;
+    font-size: 30;
+    background-color: rgb(132, 204, 204);
+}
+
+#кнопканазапись:hover{
+    background-color: #52a5a8;
+    color: white;
+}
+
+#list1{
+    font-size: 25;
+    max-width: 400;
+    list-style: square inside none;
+    list-style-image:url="D:\Егор\ГГВП\i2.jpg";
+}
+
+
+.container{
+    margin-left: 20%;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    height: 60px;
+    border-radius: 25px;
+    font-size: 20;
+    text-align: center;
+    flex-basis: 160px;
+    color: black;
+    background-color: gray;
+}
+
+.item:link{
+    text-decoration: none;
+}
+.item:hover{
+    color:white;
+    background-color: rgb(126, 57, 126);
+    text-decoration: none;
+}
+.item:active{
+    background-color: rgb(126, 57, 126);
+    text-decoration: none;
+}
+
+
+.block {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20% 5% 15% 5%;
+    width: 700;
+    height: 400;
+	background-color: #52a5a8;
+	color: #fff;
+	padding: 60px 40px;
+
+
+}

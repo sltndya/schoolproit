@@ -1,42 +1,119 @@
 <html>
     <head>
         <title>куку</title>
-        <link rel="stylesheet" href="F:\сайт Проект\stylecss.css" />
+        <link rel="stylesheet" href="C:\Users\yuliy\stylecss.css" />
+      <script src="script.js"></script>
     </head>
     <body style="background-color: gray">
 
-        <div class="container">
-            <a class="item" href="#for parents">Для родителей</a>
+        <div id="container">
+            
             <a class="item" href="#about us">О нас</a>
-            <a class="item" href="#Kyrsi">Курсы</a>
+            <a class="item" href="#ourCurses">Курсы</a>
+            <a class="item" href="#for parents">Для родителей</a>
             <a class="item" href="#Voprosi">Частые вопросы</a>
         </div>
-        <div class="block" style="border: solid;">
-            <div class="Ошколе">ШКОЛА ПРОГРАМИРОВАНИЯ ПРО IT ДЛЯ ВСЕХ ЖЕЛАЮЩИХ</div>
+        <div id="block" style="border: solid;">
+            <div id="AboutSchool">ШКОЛА ПРОГРАМИРОВАНИЯ ПРО IT ДЛЯ ВСЕХ ЖЕЛАЮЩИХ</div>
             <ul id="list1">
                 <li>Большой опыт преподавания</li>
                 <li>Опытные преподаватели в каждом из направлений</li>
                 <li>Постоянная практика на занятиях</li>
                 <li>Практические работы</li>
             </ul>
-            <button id="кнопканазапись" href="Страницазаписинакурс">ЗАПИСАТЬСЯ</button>
+            <a class="forma" href="#zatemnenie">Записаться</a>
+                </div>
             
         </div>
         <div id="plashkacyrsi">
-            <h1 style="text-align: center; font-size: 35;margin-top: 50;">Наши Курсы</h1>\
+            <h1 style="text-align: center; font-size: 35;margin-top: 50;" id="ourCurses">Наши Курсы</h1>
             
-            <!-- <div class="container"> -->
-            <div class="blockkursa" style="margin-left: 30%;">
-                <p class="Курс123">Курс 1</p>
-                <div id="text1"></div>
+            <div class="strochka">
+                <div class="blockkursa">
+                    <p class="Kyrs123">Курс 1</p>
+                    <div id="text1"></div>
+                    <a class="forma" href="#zatemnenie">Записаться</a>
+                </div>
+
+                <div class="blockkursa" style="float: right;">
+                    <p class="Kyrs123">Курс 2</p>
+                    <div id="text2"></div>
+                    <a class="forma" href="#zatemnenie">Записаться</a>
+                </div>
+            </div>
+            <div class="strochka">
+                <div class="blockkursa">
+                    <p class="Kyrs123">Курс 3</p>
+                    <div id="text3"></div>
+                    <a class="forma" href="#zatemnenie">Записаться</a>
+                </div>
+
+                <div class="blockkursa" style="float: right;">
+                    <p class="Kyrs123">Курс 4</p>
+                    <div id="text4"></div>
+                    <a class="forma" href="#zatemnenie">Записаться</a>
+                </div>
             </div>
 
-            <div class="blockkursa" style="margin-left: 10%;">
-                <p class="Курс123">Курс 2</p>
-                <div id="text2"></div>
-            </div>
-            <!-- </div> -->
 
-        </div>
+            <div class="strochka">
+                <div class="blockkursa">
+                    <p class="Kyrs123">Курс 5</p>
+                    <div id="text5"></div>
+                    <a class="forma" href="#zatemnenie">Записаться</a>
+                </div>
+
+                <div class="blockkursa" style="float: right;">
+                    <p class="Kyrs123">Курс 6</p>
+                    <div id="text6"></div>
+                    <a class="forma" href="#zatemnenie">Записаться</a>
+                </div>
+            </div>
+
+            <div id="zatemnenie">
+                <div id="OknoFormi">
+                    <form method="post" id="form">           
+                      <div class="row">
+                        <label>Имя и Фамилия </label>
+                        <input type="text" name="name" placeholder="" required autofocus autocomplete="off" minlength="2" maxlength="20" title="как к Вам обращаться?" />
+                      </div>
+
+                      <div class="row">
+                        <label>Адрес электронной почты</label>
+                        <input type="text" name="email" placeholder="что@то.ru" required autocomplete="off" maxlength="40" title="мы напишем сюда" />
+                      </div>
+
+                      <div class="row">
+                        <label>Номер телефона</label>
+                        <input type="text" name="phone" placeholder="+7..." required autocomplete="off" minlength="10" maxlength="12"  title="или в Telegram/WhatsApp" />
+                      </div>
+
+                      <div class="row">
+                        <textarea
+                          name="message"
+                          maxlength="100"
+                          id="message"
+                          cols="30"
+                          rows="4"
+                          placeholder="Напишите мне"
+                          title="уточните, что вы еще умеете"
+                        ></textarea>
+                      </div>
+
+                      <div class="row">
+                        <input type="checkbox" name="rule" id="rule" checked required />
+                        <label for="rule">Согласны на обработку персональных данных</label>
+                      </div>
+
+
+                      <div class="row">
+                        <input type="submit" value="Отправить"/>
+                      </div>
+                       
+                   </form>
+                  <a href="#" class="close">Закрыть окно</a>
+                  </div> 
+            </div>
+        </div>        
     </body>
 </html>

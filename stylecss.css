@@ -1,3 +1,7 @@
+html{
+  margin:0;
+  padding:0;
+}
 #text1{
     display: flex;
     align-items: center;
@@ -6,8 +10,8 @@
     text-align: center;
     content: "Текст для первого блока №1";
     border-radius: 10%;
-    width: 200;
-    height: 180;
+    width: 200px;
+    height: 120px;
 	background-color: #52a5a8;
 	color: #fff;
 	padding: 30px 20px;
@@ -46,16 +50,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 #text2{
     display: flex;
     align-items: center;
@@ -64,8 +58,8 @@
     text-align: center;
     content: "Текст для второго блока №1";
     border-radius: 10%;
-    width: 200;
-    height: 180;
+    width: 200px;
+    height: 120px;
 	background-color: #52a5a8;
 	color: #fff;
 	padding: 30px 20px;
@@ -105,6 +99,151 @@
 
 
 
+#text3{
+    display: flex;
+    align-items: center;
+}
+#text3::before{
+    text-align: center;
+    content: "Текст для третьего блока №1";
+    border-radius: 10%;
+    width: 200px;
+    height: 120px;
+	background-color: #52a5a8;
+	color: #fff;
+	padding: 30px 20px;
+    animation-duration: 1s;
+    animation-name: blok32;
+    animation-fill-mode:forwards;
+}
+#text3:hover::before{
+    animation-duration: 1s;
+    animation-name: blok31;
+    animation-fill-mode:forwards;
+}
+
+@keyframes blok31 {
+    from {
+        background-color: #52a5a8;
+        content: "Текст для третьего блока №1";
+    }
+  
+    to {
+        background-color: #131616;
+        content: "Текст для третьего блока №2";
+    }
+}
+
+@keyframes blok32 {
+    from {
+        background-color: #131616;
+        content: "Текст для третьего блока №2";
+    }
+    to {
+        background-color: #52a5a8;
+        content: "Текст для третьего блока №1";
+    }
+}
+
+
+
+
+
+#text4{
+    display: flex;
+    align-items: center;
+}
+#text4::before{
+    text-align: center;
+    content: "Текст для четвертого блока №1";
+    border-radius: 10%;
+    width: 200px;
+    height: 120px;
+	background-color: #52a5a8;
+	color: #fff;
+	padding: 30px 20px;
+    animation-duration: 1s;
+    animation-name: blok42;
+    animation-fill-mode:forwards;
+}
+#text4:hover::before{
+    animation-duration: 1s;
+    animation-name: blok41;
+    animation-fill-mode:forwards;
+}
+
+@keyframes blok41 {
+    from {
+        background-color: #52a5a8;
+        content: "Текст для четвертоо блока №1";
+    }
+  
+    to {
+        background-color: #131616;
+        content: "Текст для четвертоо блока №2";
+    }
+}
+
+@keyframes blok42 {
+    from {
+        background-color: #131616;
+        content: "Текст для четвертоо блока №2";
+    }
+    to {
+        background-color: #52a5a8;
+        content: "Текст для четвертоо блока №1";
+    }
+}
+
+
+
+
+
+#text5{
+    display: flex;
+    align-items: center;
+}
+#text5::before{
+    text-align: center;
+    content: "Текст для пятого блока №1";
+    border-radius: 10%;
+    width: 200px;
+    height: 120px;
+	background-color: #52a5a8;
+	color: #fff;
+	padding: 30px 20px;
+    animation-duration: 1s;
+    animation-name: blok52;
+    animation-fill-mode:forwards;
+}
+#text5:hover::before{
+    animation-duration: 1s;
+    animation-name: blok51;
+    animation-fill-mode:forwards;
+}
+
+@keyframes blok51 {
+    from {
+        background-color: #52a5a8;
+        content: "Текст для пятого блока №1";
+    }
+  
+    to {
+        background-color: #131616;
+        content: "Текст для пятого блока №2";
+    }
+}
+
+@keyframes blok52 {
+    from {
+        background-color: #131616;
+        content: "Текст для пятого блока №2";
+    }
+    to {
+        background-color: #52a5a8;
+        content: "Текст для пятого блока №1";
+    }
+}
 
 
 
@@ -112,6 +251,67 @@
 
 
 
+
+
+
+
+#text6{
+    display: flex;
+    align-items: center;
+}
+#text6::before{
+    text-align: center;
+    content: "Текст для шестого блока №1";
+    border-radius: 10%;
+    width: 200px;
+    height: 120px;
+	background-color: #52a5a8;
+	color: #fff;
+	padding: 30px 20px;
+    animation-duration: 1s;
+    animation-name: blok62;
+    animation-fill-mode:forwards;
+}
+#text6:hover::before{
+    animation-duration: 1s;
+    animation-name: blok61;
+    animation-fill-mode:forwards;
+}
+
+@keyframes blok61 {
+    from {
+        background-color: #52a5a8;
+        content: "Текст для шестого блока №1";
+    }
+  
+    to {
+        background-color: #131616;
+        content: "Текст для шестого блока №2";
+    }
+}
+
+@keyframes blok62 {
+    from {
+        background-color: #131616;
+        content: "Текст для шестого блока №2";
+    }
+    to {
+        background-color: #52a5a8;
+        content: "Текст для шестого блока №1";
+    }
+}
+
+
+
+
+
+
+.strochka{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
 
 
 
@@ -119,14 +319,14 @@
 .blockkursa{
     display: inline-block;
     border-radius: 10%;
-    width: 200;
-    height: 200;
+    width: 200px;
+    height: 200px;
 	background-color: #52a5a8;
 	color: #fff;
 	padding: 10px 30px 110px 30px;
 }
 
-.Курс123{
+.Kyrs123{
     text-align: center;
 }
 
@@ -135,50 +335,57 @@
 }
 
 
-.Ошколе{
+#AboutSchool{
     display: flex;
-    font-size: 35;
+    font-size: 35px;
 }
-#кнопканазапись{
+#KnopkaZapis{
     border-radius: 50px;
-    margin-left: 100px;
-    margin-top: 30;
-    font-size: 30;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    font-size: 30px;
     background-color: rgb(132, 204, 204);
 }
 
-#кнопканазапись:hover{
+#KnopkaZapis:hover{
     background-color: #52a5a8;
     color: white;
 }
 
 #list1{
-    font-size: 25;
-    max-width: 400;
+  
+    font-size: 25px;
+    max-width: 400px;
     list-style: square inside none;
     list-style-image:url="D:\Егор\ГГВП\i2.jpg";
 }
 
 
-.container{
+#container{
     margin-left: 20%;
     margin-top: 60px;
     display: flex;
     flex-wrap: wrap;
 }
+
+
 .item{
     font-weight: bold;
     display: flex;
+    gap: 1%;
     justify-content: center;
     align-items: center;
-    margin-right: 20px;
+/*     margin-right: 1%; */
     height: 60px;
     border-radius: 25px;
-    font-size: 20;
+    font-size: 20px;
     text-align: center;
-    flex-basis: 160px;
+    flex-basis: 20%;
     color: black;
     background-color: gray;
+    transition: all 1s;
 }
 
 .item:link{
@@ -195,16 +402,135 @@
 }
 
 
-.block {
+#block{
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 20% 5% 15% 5%;
-    width: 700;
-    height: 400;
+    width: 700px;
+    height: 400px;
 	background-color: #52a5a8;
 	color: #fff;
 	padding: 60px 40px;
+}
 
 
+.forma{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1%;
+    height: 60px;
+    border-radius: 25px;
+    font-size: 20px;
+    text-align: center;
+    flex-basis: 20%;
+    color: black;
+    background-color: #52a5a8;
+}
+.forma:link{
+    text-decoration: none;
+}
+.forma:hover{
+    color:white;
+    background-color: rgb(126, 57, 126);
+    text-decoration: none;
+}
+.forma:active{
+    background-color: rgb(126, 57, 126);
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+#zatemnenie {
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#zatemnenie:target {display: block;}
+
+
+#okno {
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #0000cc;
+    border-radius: 10px;
+    color: #0000cc;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background: #fff;
+}
+
+
+.close {
+    display: inline-block;
+    border: 1px solid #0000cc;
+    color: #0000cc;
+    padding: 0 12px;
+    margin: 10px;
+    text-decoration: none;
+    background: #f2f2f2;
+    font-size: 14pt;
+    cursor:pointer;
+}
+.close:hover {background: #e6e6ff;}
+
+
+
+
+
+
+
+
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+  
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+#OknoFormi {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 30%;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
 }
